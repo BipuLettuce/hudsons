@@ -1,5 +1,5 @@
 #side {
-	background-color:antiquewhite;
+	/*background-color:antiquewhite;*/
 	
 }
 
@@ -15,6 +15,10 @@ body {
 
 #navbar {
 	background-color:#BE1A38;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:antiquewhite;
+	box-shadow: 0px 0px 100px 5px rgb(0,0,0);
 }
 
 container-fluid {
