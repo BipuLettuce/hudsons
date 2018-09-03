@@ -1,2 +1,34 @@
-/* CSS Document */
+#side {
+	background-color:antiquewhite;
+	
+}
 
+body {
+	background-color:#12293a;
+}
+
+#hudsonslogo{
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+#navbar {
+	background-color:#BE1A38;
+}
+
+container-fluid {
+	padding: 0px;
+}
+
+.listitem {
+	padding-top:15px;
+	padding-left:15px;
+	color:antiquewhite;
+	display:inline-block;
+	
+}
+
+.alright {
+	text-align:right;
+}
