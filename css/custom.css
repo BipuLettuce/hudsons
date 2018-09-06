@@ -1,6 +1,7 @@
-#side {
-	/*background-color:antiquewhite;*/
-	
+.sidebar {
+	background-color:antiquewhite;
+	z-index:997;
+	position:fixed;
 }
 
 body {
@@ -11,6 +12,8 @@ body {
 	width: 80px;
 	height: 80px;
 	float: left;
+	z-index: 999;
+	position:fixed;
 }
 
 #navbar {
@@ -19,6 +22,8 @@ body {
 	border-bottom-width:1px;
 	border-bottom-color:antiquewhite;
 	box-shadow: 0px -20px 100px 0px rgb(0,0,0);
+	z-index: 998;
+	position:fixed;
 }
 
 container-fluid {
