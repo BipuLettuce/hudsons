@@ -1,21 +1,22 @@
 .sidebar {
 	
 	z-index:997;
-	
+	position:fixed;
 	
 }
 .pagecontent{
 	
 	margin-top:60px;
+	z-index:990;
 }
-
 #sidebar {
 	padding-top:70px;
-	position:fixed;
+	
 	background-color:antiquewhite;
 	color:rgba(53,41,42,1.00);
-	position:relative;
+
 	box-shadow: 0px 0px 10px 0px rgb(0,0,0);
+	z-index:995;
 }
 
 body {
@@ -66,4 +67,14 @@ container-fluid {
 
 .alright {
 	text-align:right;
+}
+
+@media all and (max-width: 600px) {
+    #sidebar { display: none; }
+	
+	#hudsonslogo {display: none; }
+}
+
+@media all and (min-width: 600px) {
+	#homebutton {padding-left:100px;}
 }
