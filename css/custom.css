@@ -1,26 +1,33 @@
 .sidebar {
 	
 	z-index:997;
-	position:fixed;
 	
+	margin-left:0px;
 }
 .pagecontent{
 	
-	margin-top:60px;
+	margin-top:80px;
 	z-index:990;
+	width: calc(100%-200px);
+	display:inline;
+	margin-left:200px;
 }
 #sidebar {
+	position:fixed;
 	padding-top:70px;
-	
+	padding-left:20px;
 	background-color:antiquewhite;
 	color:rgba(53,41,42,1.00);
 
 	box-shadow: 0px 0px 10px 0px rgb(0,0,0);
 	z-index:995;
+	width:200px;
+	margin-left:0px;
 }
 
 body {
 	background-color:#12293a;
+	padding:0px;
 }
 
 .block{
@@ -28,10 +35,11 @@ body {
 	margin-top:20px;
 	margin-bottom:20px;
 	
-	width:90%;
+	width:100%;
 	box-shadow:0px 0px 5px 0px rgb(0,0,0);
 	color:rgba(53,41,42,1.00);
 	margin: 0 auto;
+	padding: 20px 20px 20px 20px;
 }
 
 #hudsonslogo{
@@ -73,8 +81,13 @@ container-fluid {
     #sidebar { display: none; }
 	
 	#hudsonslogo {display: none; }
+	
+	.padgecontent{margin-left:0px !important; }
 }
 
 @media all and (min-width: 600px) {
 	#homebutton {padding-left:100px;}
+}
+@media all and (min-width: 800px) {
+	#block {width:600px;}
 }
