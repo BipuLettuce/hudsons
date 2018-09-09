@@ -50,6 +50,14 @@ body {
 	z-index: 999;
 	position:fixed;
 }
+#hudsonslogomobile{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	display:none;
+	margin-bottom:20px;
+	
+}
 
 #navbar {
 	background-color:#BE1A38;
@@ -93,7 +101,12 @@ container-fluid {
 	
 	#hudsonslogo {display: none; }
 	
-	.pagecontent{width:98%; }
+	.pagecontent{
+		width:98%;
+		padding-top:80px;
+	}
+	#hudsonslogomobile {display:block;}
+	.topheading {display:none;}
 }
 
 @media all and (min-width: 600px) {
