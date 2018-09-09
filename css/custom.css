@@ -84,6 +84,10 @@ container-fluid {
 	padding:20px 20px;
 }
 
+.rightimage img{
+	width:100%;
+}
+
 @media all and (max-width: 600px) {
     #sidebar { display: none; }
 	
