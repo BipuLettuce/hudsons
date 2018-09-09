@@ -5,12 +5,12 @@
 	margin-left:0px;
 }
 .pagecontent{
+	padding-top:100px;
 	
-	margin-top:80px;
 	z-index:990;
-	width: calc(100%-200px);
-	display:inline;
-	margin-left:200px;
+	width: 80%;
+
+	margin: 0 auto;
 }
 #sidebar {
 	position:fixed;
@@ -28,6 +28,7 @@
 body {
 	background-color:#12293a;
 	padding:0px;
+	margin-top:0px;
 }
 
 .block{
@@ -75,6 +76,12 @@ container-fluid {
 
 .alright {
 	text-align:right;
+}
+
+.heading {
+	
+	color:antiquewhite;
+	padding:20px 20px;
 }
 
 @media all and (max-width: 600px) {
