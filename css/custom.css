@@ -103,6 +103,11 @@ container-fluid {
 	
 }
 
+.menuimage {
+	width:90%;
+	padding:0 auto;
+}
+
 .listitem:hover{
 	color:#FFBEAD;
 	
