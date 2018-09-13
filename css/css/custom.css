@@ -1,0 +1,190 @@
+.sidebar {
+	
+	z-index:997;
+	
+	margin-left:0px;
+}
+.pagecontent{
+	padding-top:100px;
+	
+	z-index:990;
+	width: 80%;
+
+	margin: 0 auto;
+}
+#sidebar {
+	position:fixed;
+	padding-top:70px;
+	padding-left:20px;
+	background-color:antiquewhite;
+	color:rgba(53,41,42,1.00);
+
+	box-shadow: 0px 0px 10px 0px rgb(0,0,0);
+	z-index:995;
+	width:200px;
+	margin-left:0px;
+}
+
+body {
+	background-color:#12293a;
+	padding:0px;
+	margin-top:0px;
+}
+
+#mobilenav{
+	display:none;
+}
+
+.block{
+	background-color:antiquewhite;
+	margin-top:20px;
+	margin-bottom:20px;
+	
+	width:100%;
+	box-shadow:0px 0px 5px 0px rgb(0,0,0);
+	color:rgba(53,41,42,1.00);
+	margin: 0 auto;
+	padding: 40px 20px 20px 20px;
+	border-radius:5px;
+	box-shadow:0 0 20px -4px rgb(0,0,0);
+}
+
+.note{
+	background-color:#BE1A38;
+	
+	margin-bottom:10px;
+	border-radius:8px;
+	color:antiquewhite;
+
+}
+
+
+.note i {
+
+	float:left;
+	padding-top:10px;
+	padding-left:10px;
+	margin-right:10px;
+	padding-bottom:10px;
+	height:80%;
+}
+.note p {
+
+
+	
+	padding:10px;
+	magin-top:0px;
+	padding-bottom:10px;
+}
+
+#hudsonslogo{
+	width: 80px;
+	height: 80px;
+	float: left;
+	z-index: 999;
+	position:fixed;
+}
+#hudsonslogomobile{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	display:none;
+	margin-bottom:20px;
+	
+}
+
+#navbar {
+	background-color:#BE1A38;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:antiquewhite;
+	
+	z-index: 998;
+	position:fixed;
+	
+}
+
+container-fluid {
+	padding: 0px;
+}
+
+.listitem {
+	padding-top:15px;
+	padding-left:15px;
+	color:antiquewhite;
+	display:inline-block;
+	
+}
+
+.menuimage {
+	width:90%;
+	padding:0 auto;
+}
+
+.listitem:hover{
+	color:#FFBEAD;
+	
+}
+
+.alright {
+	text-align:right;
+}
+
+.heading {
+	
+	color:antiquewhite;
+	padding:20px 20px;
+}
+
+.rightimage img{
+	width:100%;
+}
+button {
+	
+	background-color:#BE1A38;
+	border: solid;
+	color:antiquewhite;
+	padding:10px 30px;
+	cursor:pointer;
+}
+
+button:hover{
+	background-color:antiquewhite;
+	color:#BE1A38;
+}
+
+@media all and (max-width: 600px) {
+    #sidebar { display: none; }
+	
+	#hudsonslogo {display: none; }
+	
+	.pagecontent{
+		width:98%;
+		padding-top:80px;
+	}
+	#hudsonslogomobile {display:block;}
+	.topheading {display:none;}
+}
+@media all and (max-width:400px){
+	
+	#mobilenav{display:block;}
+	#desktopnav{display:none;}
+	#desktopback{display:none;}
+	#navbar p {
+		
+		font-size:9pt;
+		
+	}
+	.pagecontent{padding-top:70px;}
+}
+@media all and (min-width:399px){
+	#mobilenav{display:none;}
+	#desktopnav{display:block;}
+	#desktopback{display:block;}
+}
+@media all and (min-width: 600px) {
+	#homebutton {padding-left:100px;}
+}
+@media all and (min-width: 800px) {
+	#block {width:600px;}
+}
