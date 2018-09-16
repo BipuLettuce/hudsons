@@ -26,6 +26,16 @@
 	margin-left:0px;
 }
 
+#menunav{
+	padding-top:75px;
+	position:fixed;
+	z-index:995;
+}
+
+#orderbtn{
+	float:right;
+}
+
 body {
 	background-color:#12293a;
 	padding:0px;
@@ -161,9 +171,14 @@ button:hover{
 		padding-top:80px;
 	}
 	#hudsonslogomobile {display:block;}
+	#menunav{padding-top:70px;padding-left:5px;padding-right:5px}
 	.topheading {display:none;}
+	.menubtn{
+		padding:10px;
+		
+	}
 }
-@media all and (max-width:400px){
+@media all and (max-width:410px){
 	
 	#mobilenav{display:block;}
 	#desktopnav{display:none;}
@@ -173,8 +188,23 @@ button:hover{
 		
 		
 	}
+	#menunav{
+		position:fixed;
+		padding-bottom:5px;
+		padding-top:60px;
+	}
+	#orderbtn{
+		
+		width:100%;
+	}
+	
+	.menubtn{
+		width:32.5%;
+	}
+	
+	
 }
-@media all and (min-width:399px){
+@media all and (min-width:410px){
 	#mobilenav{display:none;}
 	#desktopnav{display:block;}
 	#desktopback{display:block;}
