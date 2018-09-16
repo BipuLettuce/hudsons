@@ -154,6 +154,7 @@ button {
 	color:antiquewhite;
 	padding:10px 30px;
 	cursor:pointer;
+	border-radius:5px;
 }
 
 button:hover{
@@ -161,6 +162,12 @@ button:hover{
 	color:#BE1A38;
 }
 
+h1 {
+	font-family: 'Roboto Slab', serif;
+}
+h2 {
+	font-family: 'Roboto Slab', serif;
+}
 @media all and (max-width: 600px) {
     #sidebar { display: none; }
 	
@@ -171,10 +178,10 @@ button:hover{
 		padding-top:80px;
 	}
 	#hudsonslogomobile {display:block;}
-	#menunav{padding-top:70px;padding-left:5px;padding-right:5px}
+	#menunav{padding-top:60px;padding-left:5px;padding-right:5px;padding-bottom:5px}
 	.topheading {display:none;}
 	.menubtn{
-		padding:10px;
+		padding:10px 15px;
 		
 	}
 }
@@ -196,10 +203,13 @@ button:hover{
 	#orderbtn{
 		
 		width:100%;
+		
 	}
 	
 	.menubtn{
-		width:32.5%;
+		width:30%;
+		margin:0 auto;
+		font-size:10pt;
 	}
 	
 	
