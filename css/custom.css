@@ -147,6 +147,14 @@ container-fluid {
 .rightimage img{
 	width:100%;
 }
+.mmenubtn{
+		width:100%;
+		text-align:center;
+		background-color:#BE1A38;
+	border-radius:3px;
+	margin:2px;
+	padding:5px 10px;
+}
 button {
 	
 	background-color:#BE1A38;
@@ -167,6 +175,14 @@ h1 {
 }
 h2 {
 	font-family: 'Roboto Slab', serif;
+}
+#mobilemenu {
+	display:none;
+	padding-bottom:5px;
+	padding-top:100px;;
+	color:antiquewhite;
+	
+	
 }
 @media all and (max-width: 600px) {
     #sidebar { display: none; }
@@ -195,22 +211,28 @@ h2 {
 		
 		
 	}
+	#mobilemenu{
+		display:block;
+	}
 	#menunav{
 		position:fixed;
 		padding-bottom:5px;
 		padding-top:60px;
 	}
-	#orderbtn{
-		
-		width:100%;
-		
-	}
-	
 	.menubtn{
 		width:30%;
 		margin:0 auto;
 		font-size:10pt;
+		display:none;
 	}
+	
+	#orderbtn{
+		
+		width:100%;
+		display:block;
+	}
+	
+	
 	
 	
 }
