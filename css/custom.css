@@ -13,6 +13,31 @@
 	margin: 0 auto;
 	padding-bottom:5px;
 }
+
+input {
+	border-radius:5px;
+	border-style:solid;
+	border-color:white;
+}
+
+input:hover{
+	border-style:solid;
+	border-color:#BE1A38;
+}
+
+textarea {
+	border-radius:5px;
+	border-style:solid;
+	border-color:white;
+	border-width:2px;
+}
+
+textarea:hover{
+	border-style:solid;
+	border-color:#BE1A38;
+	border-width:2px;
+}
+
 #sidebar {
 	position:fixed;
 	padding-top:70px;
@@ -27,9 +52,12 @@
 }
 
 #menunav{
-	padding-top:75px;
+	padding-top:65px;;
 	position:fixed;
 	z-index:995;
+	padding-bottom:10px;
+	padding-left:100px;
+	border-radius:0px;
 }
 
 #orderbtn{
