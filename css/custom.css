@@ -212,6 +212,33 @@ h2 {
 	
 	
 }
+
+button:hover{
+	animation-name:beepbeep;
+	animation-duration:1s;
+	animation-iteration-count: infinite;
+}
+@keyframes beepbeep {
+	
+	100%   {
+		
+		
+		
+		/*background-color:magenta;
+		color:aqua;
+		outline-color:deeppink;*/
+		padding-left:40px;
+		padding-right:40px;
+		background-color:antiquewhite;
+		color:#BE1A38;
+
+	}
+	
+    
+}
+
+
+
 @media all and (max-width: 600px) {
     #sidebar { display: none; }
 	
