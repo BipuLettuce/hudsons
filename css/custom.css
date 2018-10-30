@@ -155,6 +155,11 @@ container-fluid {
 	margin-bottom:0px;
 }
 
+.footer:after{
+	background-color:#BE1A38d;
+	height:100%;
+}
+
 .listitem {
 	padding-top:15px;
 	padding-left:15px;
@@ -196,7 +201,7 @@ container-fluid {
 }
 
 .menuitem {
-	margin:20px;
+	margin:10px;
 	outline:solid;
 	outline-width:1px;
 	outline-color:#F9E1C1;
@@ -215,7 +220,7 @@ container-fluid {
 	
 	width:100%;
 	padding-bottom:15px;
-	min-width:120px;
+	
 }
 
 button {
@@ -247,7 +252,18 @@ h2 {
 	
 	
 }
-
+@media all and (max-width: 450px){
+	.menuitem {
+		width:100%;
+	}
+}
+@media all and (max-width: 1300px){
+	.menuitem {
+		width:100%;
+		margin:5px;
+		padding:10px;
+	}
+}
 @media all and (max-width: 600px) {
     #sidebar { display: none; }
 	
