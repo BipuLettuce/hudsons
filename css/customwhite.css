@@ -22,19 +22,22 @@
 input {
 	border-radius:5px;
 	border-style:solid;
-	border-color:#FFE5DD;
+	border-color:white;
+	box-shadow:0px 0px 20px 0px #FFEEE1;
 }
 
 input:hover{
 	border-style:solid;
 	border-color:#BE1A38;
+	box-shadow:0px 0px 20px 0px #FFEEE1;
 }
 
 textarea {
 	border-radius:5px;
 	border-style:solid;
-	border-color:#FFE5DD;
+	border-color:white;
 	border-width:2px;
+	box-shadow:0px 0px 20px 0px #FFEEE1;
 }
 
 textarea:hover{
@@ -283,7 +286,7 @@ h2 {
 
 @keyframes grow { 
         from { 
-            transform: scale(1.03); 
+            transform: scale(1.02); 
         } to { 
             transform: scale(1); 
     }
@@ -294,6 +297,42 @@ h2 {
     animation-duration: 1s;
 }
 
+@media (max-width: 450px) {
+  .block {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* optional */
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+  }
+
+  .block .first_div {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .block .second_div {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+  }
+}
 
 
 @media all and (max-width: 450px){
