@@ -1,0 +1,417 @@
+.sidebar {
+	
+	z-index:997;
+	
+	margin-left:0px;
+}
+.pagecontent{
+	padding-top:100px;
+	
+	z-index:990;
+	width: 80%;
+
+	margin: 0 auto;
+	padding-bottom:5px;
+}
+
+#specialorder {
+	padding:5px 20px;
+	border-radius:10px;
+}
+
+input {
+	border-radius:5px;
+	border-style:solid;
+	border-color:lightgray;
+	
+}
+
+input:hover{
+	border-style:solid;
+	border-color:#BE1A38;
+	
+}
+
+textarea {
+	border-radius:5px;
+	border-style:solid;
+	border-color:lightgray;
+	border-width:2px;
+	
+}
+
+textarea:hover{
+	border-style:solid;
+	border-color:#BE1A38;
+	border-width:2px;
+}
+
+
+#menunav{
+	padding-top:65px;;
+	position:fixed;
+	z-index:995;
+	padding-bottom:10px;
+	padding-left:100px;
+	border-radius:0px;
+}
+
+#orderbtn{
+	float:right;
+}
+
+body {
+	background-color:#17171C;
+	padding:0px;
+	margin-top:0px;
+}
+
+.block{
+	background-color:#17171C;
+	margin-top:20px;
+	margin-bottom:20px;
+	
+	width:100%;
+	
+	color:#6D717C;
+	margin: 0 auto;
+	margin-bottom:20px;
+	padding: 40px 20px 20px 20px;
+
+	/*box-shadow:0 0 20px -4px rgba(240,240,240,1.00);*/
+	outline-color: #6D717C;
+	border-top-color:#6D717C;
+	border-top-width:2px;
+	border-top-style:solid;
+}
+
+.note{
+	background-color:#17171D;
+	
+	border-width:2px;
+	margin-bottom:10px;
+	border-radius:8px;
+	color:#BE1A38;
+	border-color:#BE1A38;
+
+}
+
+
+.note i {
+
+	float:left;
+	padding-top:10px;
+	padding-left:10px;
+	margin-right:10px;
+	padding-bottom:10px;
+	height:80%;
+}
+.note p {
+
+
+	
+	padding:10px;
+	magin-top:0px;
+	padding-bottom:10px;
+}
+
+#hudsonslogo{
+	width: 80px;
+	height: 80px;
+	float: left;
+	z-index: 999;
+	position:fixed;
+}
+#hudsonslogomobile{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	display:none;
+	margin-bottom:20px;
+	
+}
+
+#navbar {
+	background-color:#BE1A38;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:white;
+	
+	z-index: 998;
+	position:fixed;
+	
+}
+
+container-fluid {
+	padding: 0px;
+}
+
+.footer {
+	color:white;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10%;
+	padding-right:10%;
+	
+	background-color:#BE1A38;
+	margin-bottom:0px;
+}
+
+.footer:after{
+	background-color:#BE1A38d;
+	height:100%;
+}
+
+.listitem {
+	padding-top:15px;
+	padding-left:15px;
+	color:white;
+	display:inline-block;
+	
+}
+
+.menuimage {
+	width:90%;
+	padding:0 auto;
+}
+
+.listitem:hover{
+	color:#FFBEAD;
+	
+}
+
+.alright {
+	text-align:right;
+}
+
+.heading {
+	
+	color:#BE1A38;;
+	padding:20px 20px;
+}
+
+.rightimage img{
+	width:100%;
+}
+.mmenubtn{
+		min-width:100%;
+		text-align:center;
+		background-color:#12293a;
+	border-radius:3px;
+	margin:2px;
+	padding:5px 10px;
+}
+
+.menuitem {
+	margin:10px;
+	
+	padding:20px;
+	
+	
+	
+}
+
+.menuitem:hover {
+	outline-style:solid;
+	outline-width:3px;
+	outline-color:#BE1A38;
+	
+}
+
+.menuitem img {
+	
+	width:100%;
+	padding-bottom:15px;
+	
+}
+
+button {
+	
+	background-color:#17171D;
+	border: solid;
+	color:#BE1A38;
+	padding:10px 30px;
+	cursor:pointer;
+	border-radius:5px;
+}
+
+button:hover{
+	background-color:#BE1A38;
+	color:#17171D;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	color:#BE1A38;
+}
+h2 {
+	font-family: 'Roboto Slab', serif;
+	color:#BE1A38;
+}
+#mobilemenu {
+	display:none;
+	padding-bottom:5px;
+	padding-top:100px;;
+	color:white;
+	
+	
+}
+
+@keyframes example {
+    0%   {
+		background-color: red;
+		transform:scale(5);
+	}
+    20%  {
+		background-color: yellow;
+	}
+    40%  {
+		background-color: lime;
+	}
+    60% {
+		background-color: cyan;
+	}
+	80% {
+		background-color: purple;
+	}
+	100% {
+		bakground-color:magenta;
+	
+	}
+}
+
+@keyframes grow { 
+        from { 
+            transform: scale(1.02); 
+        } to { 
+            transform: scale(1); 
+    }
+}
+
+.menuitem:hover{
+    animation-name: grow;
+    animation-duration: 1s;
+}
+
+@media (max-width: 450px) {
+  .block {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* optional */
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+  }
+
+  .block .first_div {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .block .second_div {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+  }
+}
+
+
+@media all and (max-width: 450px){
+	.menuitem {
+		width:100%;
+	}
+}
+@media all and (max-width: 1300px){
+	.menuitem {
+		width:100%;
+		margin:5px;
+		padding:10px;
+	}
+}
+@media all and (max-width: 600px) {
+    #sidebar { display: none; }
+	
+	#hudsonslogo {display: none; }
+	.aboutmobile{display:block;}
+	.aboutdesktop{display:none;}
+	#mobilealert{display:block;}
+	.pagecontent{
+		width:98%;
+		padding-top:80px;
+	}
+	#hudsonslogomobile {display:block;}
+	#menunav{padding-top:60px;padding-left:5px;padding-right:5px;padding-bottom:5px}
+	.topheading {display:none;}
+	.menubtn{
+		padding:10px 15px;
+		
+	}
+}
+@media all and (max-width:410px){
+	
+	#mobilenav{display:block;}
+	
+	#desktopnav{display:none;}
+	#desktopback{display:none;}
+	
+	
+	#navbar p {
+		
+		
+		
+	}
+	#mobilemenu{
+		display:block;
+	}
+	#menunav{
+		position:fixed;
+		padding-bottom:5px;
+		padding-top:60px;
+	}
+	.menubtn{
+		width:30%;
+		margin:0 auto;
+		font-size:10pt;
+		display:none;
+	}
+	
+	#orderbtn{
+		
+		width:100%;
+		display:block;
+	}
+	
+	
+	
+	
+}
+@media all and (min-width:410px){
+	#mobilenav{display:none;}
+	#desktopnav{display:block;}
+	#desktopback{display:block;}
+	
+}
+@media all and (min-width: 600px) {
+	#homebutton {padding-left:100px;}
+	#mobilealert{display:none;}
+	.aboutdesktop{display:block;}
+	.aboutmobile{display:none;}
+}
+@media all and (min-width: 800px) {
+	#block {width:600px;}
+}
