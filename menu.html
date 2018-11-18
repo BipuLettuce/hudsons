@@ -35,12 +35,19 @@
 		</div>
 	</nav>
 	<div class="block" id="menunav">	
+		<!--this button makes the other links sit in the right position-->
+
+		<!--Uncomment the following for link buttons (The formatting gets messed up though ): )-->
 		
-			<button type="submit" class="menubtn">Hot Food</button>
-			<button type="submit" class="menubtn">Cold Food</button>
-			<button type="submit" class="menubtn">Drinks</button>
+		<!--<a href="#hotfood" class="button menubtn">Hot Food</a>
+		<a href="#coldfood" class="button menubtn">Cold Food</a>
+		<a href="#drinks" class="button menubtn">Drinks</a>-->
+		<button type="submit" class="menubtn">Hot Food</button>
+		<button type="submit" class="menubtn">Cold Food</button>
+		<button type="submit" class="menubtn">Drinks</button>
 		
-		<button type="submit" class="menubtn" id="orderbtn">Order</button>
+		<button type="submit" id="orderbtn">Order</button>
+
 		
 		
 	</div>
@@ -54,7 +61,7 @@
 		
 		<div class = "block">
 			<h4>Want to order? Click the button at the top right!</h4>
-			<h2 id="menu" style="">Current Specials</h2>
+			<h2 id="specials" style="">Current Specials</h2>
 			
 			<div class="row">
 				<div class="col-lg-2 menuitem">
@@ -80,7 +87,7 @@
 				
 				
 			</div>
-			<h2>Hot Food</h2>
+			<h2 id="hotfood">Hot Food</h2>
 			<div class="row">
 				<div class="col-lg-2 menuitem">
 					<img src = "https://via.placeholder.com/400x250" class="menuimage">
@@ -128,7 +135,7 @@
 					<p>Smol Description - $12</p>
 				</div>
 			</div>
-			<h2>Cold Food</h2>
+			<h2 id="coldfood">Cold Food</h2>
 			<div class="row">
 				<div class="col-lg-2 menuitem">
 					<img src = "https://via.placeholder.com/400x250" class="menuimage">
@@ -176,7 +183,7 @@
 					<p>Small Description - $12</p>
 				</div>
 			</div>
-			<h2>Hot / Cold Drinks</h2>
+			<h2 id="drinks">Hot / Cold Drinks</h2>
 			<div class="row">
 				<div class="col-lg-2 menuitem">
 					<img src = "https://via.placeholder.com/400x250" class="menuimage">

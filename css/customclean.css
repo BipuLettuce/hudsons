@@ -235,17 +235,63 @@ button {
 	
 	background-color:#BE1A38;
 	border: solid;
-	color:#FFEEE1;
+	color:white;
 	padding:10px 30px;
 	cursor:pointer;
 	border-radius:5px;
 }
 
 button:hover{
-	background-color:#FFEEE1;
+	background-color:white;
 	color:#BE1A38;
 }
 
+.button {
+	
+	background-color:#BE1A38;
+	border: solid;
+	color:white;
+	padding:13px 30px;
+	cursor:pointer;
+	border-radius:5px;
+	
+}
+
+.button:hover{
+	background-color:white;
+	color:#BE1A38;
+	text-decoration: none;
+}
+.button a{
+	
+	text-decoration: none;
+}
+#orderbtn.button {
+	padding:10px 30px;
+}
+.hiddenbutton {
+	color:white;
+	width:0px;
+	max-width:1px;
+	background-color:white;
+	padding-left:0px;
+	padding-right:0px;
+}
+.hiddenbutton:hover {
+	color:white;
+	width:0px;
+	max-width:1px;
+	background-color:white;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+:target:before {
+    content: "";
+    display: inline-block;
+    height: 100px;
+    margin: -100px 0 0;
+}
 h1 {
 	font-family: 'Roboto Slab', serif;
 	color:#12293a;
@@ -363,7 +409,7 @@ h2 {
 	#hudsonslogomobile {display:block;}
 	#menunav{padding-top:60px;padding-left:5px;padding-right:5px;padding-bottom:5px}
 	.topheading {display:none;}
-	.menubtn{
+	.button{
 		padding:10px 15px;
 		
 	}
@@ -389,7 +435,7 @@ h2 {
 		padding-bottom:5px;
 		padding-top:60px;
 	}
-	.menubtn{
+	.button{
 		width:30%;
 		margin:0 auto;
 		font-size:10pt;
