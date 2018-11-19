@@ -286,12 +286,19 @@ button:hover{
 	padding-right:0px;
 }
 
-:target:before {
-    content: "";
-    display: inline-block;
-    height: 100px;
-    margin: -100px 0 0;
+#ctn {
+  position: relative;
+  border: solid 1px green;
+  height: 60px;
 }
+
+#ctn a {
+  position: absolute;
+  left: 0px;
+  top: -60px;
+  border: solid 1px red;
+}
+
 h1 {
 	font-family: 'Roboto Slab', serif;
 	color:#12293a;
