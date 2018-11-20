@@ -251,10 +251,10 @@ button:hover{
 	background-color:#BE1A38;
 	border: solid;
 	color:white;
-	padding:13px 30px;
+	padding:10px 30px;
 	cursor:pointer;
 	border-radius:5px;
-	
+	display:inline-block;
 }
 
 .button:hover{
@@ -268,6 +268,7 @@ button:hover{
 }
 #orderbtn.button {
 	padding:10px 30px;
+	
 }
 .hiddenbutton {
 	color:white;
@@ -286,17 +287,17 @@ button:hover{
 	padding-right:0px;
 }
 
-#ctn {
+.menuheader {
   position: relative;
-  border: solid 1px green;
-  height: 60px;
+ 
+  
 }
 
-#ctn a {
+.menuheader a {
   position: absolute;
   left: 0px;
-  top: -60px;
-  border: solid 1px red;
+  top: -140px;
+
 }
 
 h1 {
@@ -452,7 +453,7 @@ h2 {
 	#orderbtn{
 		
 		width:100%;
-		display:block;
+		display:inline-block;;
 	}
 	
 	
