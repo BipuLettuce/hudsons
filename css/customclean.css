@@ -202,7 +202,20 @@ container-fluid {
 .mmenubtn{
 		min-width:100%;
 		text-align:center;
-		background-color:#12293a;
+		background-color:white;
+	color:#12293a;
+	font-weight:bolder;
+	border-color:aliceblue;
+	border-radius:3px;
+	margin:2px;
+	padding:5px 10px;
+}
+.mmenubtn:hover{
+	min-width:100%;
+	text-align:center;
+	background-color:#12293a;
+	color:white;
+	font-weight:bolder;
 	border-radius:3px;
 	margin:2px;
 	padding:5px 10px;
@@ -310,7 +323,7 @@ h2 {
 }
 #mobilemenu {
 	display:none;
-	padding-bottom:5px;
+	padding-bottom:1px;
 	padding-top:100px;;
 	color:white;
 	
@@ -435,9 +448,7 @@ h2 {
 		
 		
 	}
-	#mobilemenu{
-		display:block;
-	}
+	
 	#menunav{
 		position:fixed;
 		padding-bottom:5px;
@@ -476,11 +487,11 @@ h2 {
 	#block {width:600px;}
 }
 
-@media all and (max-width: 450px){
+@media all and (max-width: 480px){
 	#ordermobile{display:block;}
 	#orderdesktop{display:none;}
 }
-@media all and (min-width: 450px){
+@media all and (min-width: 480px){
 	#ordermobile{display:none;}
 	#orderdesktop{display:block;}
 }
